@@ -18,8 +18,8 @@ let mainWindow
 
 function createWindow () {
     // Create the browser window.
-    mainWindow = new BrowserWindow({ titleBarStyle: 'hidden', frame: false, width: 900, height: 600, transparent: true });
-
+    // mainWindow = new BrowserWindow({ titleBarStyle: 'hidden', frame: false, width: 900, height: 600, transparent: true });
+    mainWindow = new BrowserWindow({ titleBarStyle: 'hidden', frame: false, width: 350, height: 600, transparent: true });
     // and load the index.html of the app.
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, 'index.html'),
