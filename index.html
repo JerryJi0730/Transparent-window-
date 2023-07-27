@@ -15,9 +15,11 @@
     <div class="window-chrome">
         <div class="app-label">glass browser</div>
         <div class="window-controls">
+            <div class="minimize" onclick="minimizeWindow()"><img src="assets/ui/minimize.png" /></div>
             <div class="info" onclick="openWebsite()"><img src="assets/ui/info.png"/></div>
-            <div class="maximize" onclick="maximizeWindow()"><img src="assets/ui/maximize.png" /></div>
+            <!-- <div class="maximize" onclick="maximizeWindow()"><img src="assets/ui/maximize.png" /></div> -->
             <div class="close" onclick="closeWindow()"><img src="assets/ui/close.png" /></div>
+            
         </div>
     </div>
 
@@ -27,7 +29,7 @@
             <input type="text" value="https://jerry-deployment.vercel.app/" id="urlField"/>
         </form>
         <input type="range" value="0.95" min="0.2" max="1" step="0.05" id="transparencyRange"/>
-        <button onclick="enableClickThrough()" id="clickthroughButton"><img src="assets/ui/eye.png"/></button>
+        <!-- <button onclick="enableClickThrough()" id="clickthroughButton"><img src="assets/ui/eye.png"/></button> -->
     </div>
 
     <webview id="browserView" src="https://jerry-deployment.vercel.app/" style="display:inline-flex; width:100%;"></webview>
