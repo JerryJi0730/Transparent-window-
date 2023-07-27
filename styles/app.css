@@ -11,7 +11,8 @@
   z-index: 5000;
   background-color: white;
   z-index: 5000000;
-  background-color: grey;
+  /* background-color: grey; */
+  background-color: transparent;
 }
 
 .window-chrome .app-label {
@@ -134,7 +135,7 @@ body {
   height: calc(100vh - 78px) !important;
   margin-top: 32px;
   z-index: 5;
-  background-color: white;
+  background-color: transparent;
 }
 
 #browserView.full-size {
@@ -151,7 +152,8 @@ body {
   left: 2px;
   z-index: 1000000;
   background-color: #1167f1;
-  background-color: grey;
+  /* background-color: grey; */
+  background-color: transparent;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0px 15px 0 0;
